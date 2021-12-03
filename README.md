@@ -1,5 +1,5 @@
 ### Hi there 👋
 
 🔭 I’m currently working in Intel  
-📫 How to reach me: <https://www.linkedin.com/in/dmitrymesserman>
-![BalconyView](https://user-images.githubusercontent.com/28642149/144644107-e535ce8d-33f4-44bc-8c5c-bf094775636d.PNG)
+📫 How to reach me: <https://www.linkedin.com/in/dmitrymesserman>  
+![BalconyView](https://user-images.githubusercontent.com/28642149/144645078-66eb7eb3-994a-44a2-ab59-a5a7d65b063c.PNG)
