@@ -1,21 +1,24 @@
 <h1>OnlyOffice Desktop Editors Installation</h1>
 <p>This guide provides step-by-step instructions for installing OnlyOffice Desktop Editors on Debian-based Linux systems.</p>
 <h2>Installation Steps</h2>
-<h3>1. Create GPG Directory</h3>
+<h3>1. Run this command before installation in order to avoid GUI issues</h3>
+<pre><code>echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+</code></pre>
+<h3>2. Create GPG Directory</h3>
 <p>First, create a GPG directory with appropriate permissions:</p>
 <pre><code class="language-bash">mkdir -p -m 700 ~/.gnupg
 </code></pre>
-<h3>2. Import GPG Key</h3>
+<h3>3. Import GPG Key</h3>
 <p>Download and import the OnlyOffice GPG key:</p>
 <pre><code class="language-bash">gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
 </code></pre>
-<h3>3. Set Keyring Permissions</h3>
+<h3>4. Set Keyring Permissions</h3>
 <p>Configure the keyring file with proper permissions and ownership:</p>
 <pre><code class="language-bash">chmod 644 /tmp/onlyoffice.gpg
 sudo chown root:root /tmp/onlyoffice.gpg
 sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
 </code></pre>
-<h3>4. Add Repository</h3>
+<h3>5. Add Repository</h3>
 <p>Add the OnlyOffice repository to your system's sources list:</p>
 <pre><code class="language-bash">echo 'deb [signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main' | sudo tee -a /etc/apt/sources.list.d/onlyoffice.list
 </code></pre>

@@ -4,7 +4,12 @@ This guide provides step-by-step instructions for installing OnlyOffice Desktop 
 
 ## Installation Steps
 
-### 1. Create GPG Directory
+### 1. Run this command before installation in order to avoid GUI issues 
+```
+echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+```
+
+### 2. Create GPG Directory
 
 First, create a GPG directory with appropriate permissions:
 
@@ -12,7 +17,7 @@ First, create a GPG directory with appropriate permissions:
 mkdir -p -m 700 ~/.gnupg
 ```
 
-### 2. Import GPG Key
+### 3. Import GPG Key
 
 Download and import the OnlyOffice GPG key:
 
@@ -20,7 +25,7 @@ Download and import the OnlyOffice GPG key:
 gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
 ```
 
-### 3. Set Keyring Permissions
+### 4. Set Keyring Permissions
 
 Configure the keyring file with proper permissions and ownership:
 
@@ -30,7 +35,7 @@ sudo chown root:root /tmp/onlyoffice.gpg
 sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
 ```
 
-### 4. Add Repository
+### 5. Add Repository
 
 Add the OnlyOffice repository to your system's sources list:
 
