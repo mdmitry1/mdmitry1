@@ -1,0 +1,5 @@
+# Ollama installation instructions
+```
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull qwen2.5:7b
+```
