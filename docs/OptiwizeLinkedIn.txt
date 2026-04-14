@@ -1,6 +1,8 @@
 Excited to share a pet project I've been building lately: the Python Optimization Cookbook.
 It is an open-source collection of hands-on optimization examples covering single-objective, multi-objective, constrained and unconstrained problems.
 
+The Cookbook goal: make it as easy as possible for newcomers to get started with optimization in Python. Every example is self-contained, well-documented, and runnable out of the box — so you can go from zero to a working solver with minimal friction.
+
 The cookbook supports a wide range of solvers and algorithms:
 🔹 SciPy (SHGO, Dual Annealing, SLSQP)
 🔹 pymoo / NSGA-II & NSGA-III
