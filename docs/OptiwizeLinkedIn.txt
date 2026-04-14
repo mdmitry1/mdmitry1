@@ -1,0 +1,34 @@
+Excited to share a pet project I've been building lately: the Python Optimization Cookbook.
+It is an open-source collection of hands-on optimization examples covering single-objective, multi-objective, constrained and unconstrained problems.
+
+The cookbook supports a wide range of solvers and algorithms:
+🔹 SciPy (SHGO, Dual Annealing, SLSQP)
+🔹 pymoo / NSGA-II & NSGA-III
+🔹 Pyomo with SCIP, IPOPT, and GLPK
+🔹 Optuna GP Sampler
+🔹 Z3 SMT solver - standalone executable and called through PySMT API
+🔹 Keras/TensorFlow, PyTorch & ONNX for black-box optimization
+
+The neural network examples cover a practical and common scenario: the objective function is not given analytically but as a dataset in CSV format. A surrogate model is trained on that data — and can be provided as a Keras, PyTorch, or ONNX model — then used directly for optimization.
+
+Problems include classic benchmarks (Shekel, Eggholder, C3-DTLZ4), constrained NLP (HS73 cattle feed), and the BNH bi-objective problem with Pareto front stability analysis.
+
+Tested across Python 3.11, 3.12, and 3.13 on Ubuntu 24.04.
+
+⚡ The code was written largely with Claude Sonnet (free tier) — a fun experiment in AI-assisted scientific Python development.
+
+A special thanks to Zurab Khasidashvili (https://www.linkedin.com/in/zurab-khasidashvili-a74a804/) for his valuable guidance on the formal methods side.
+
+📦 Install via pip:
+pip install pyoptiwize
+and then follow installation instructions for solvers binaries in https://pypi.org/project/pyoptiwize/
+
+🐳 Docker image for x86_64 with all solvers installed is available as well:
+docker pull mdmitry1/optimization_tutorial-31x:latest
+
+If you work in optimization, formal methods, or scientific Python — I'd love your feedback.
+
+🔗 PyPI: https://pypi.org/project/pyoptiwize/
+🔗 GitHub: https://github.com/mdmitry1/optimization_tutorial
+
+#Python #Optimization #OperationsResearch #OpenSource #FormalMethods #ScientificComputing #AIAssistedCoding #NeuralNetworks #BlackBoxOptimization #PySMT #ONNX
