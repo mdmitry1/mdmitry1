@@ -21,7 +21,7 @@ A special thanks to Zurab Khasidashvili (https://www.linkedin.com/in/zurab-khasi
 
 📦 Install via pip:
 pip install pyoptiwize
-and then follow installation instructions for solvers binaries in https://pypi.org/project/pyoptiwize/
+and then follow installation instructions for solvers binaries installation in https://pypi.org/project/pyoptiwize/
 
 🐳 Docker image for x86_64 with all solvers installed is available as well:
 docker pull mdmitry1/optimization_tutorial-31x:latest
