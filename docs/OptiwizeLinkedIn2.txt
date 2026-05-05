@@ -32,6 +32,6 @@ The screenshot shows the BNH multi-objective example: Pareto front in objective 
 🐳 Docker: ghcr.io/mdmitry1/optimization-tutorial
 📦 pip install pyoptiwize
 
-Feedback and ⭐ always welcome!
+Feedback is always welcome: https://github.com/mdmitry1/optimization-tutorial/discussions/1!
 
-#Python #Optimization #OperationsResearch #JupyterNotebook #MachineLearning #OpenSource #LLM #ParetoFront #Docker
+#Python #Optimization #JupyterNotebook #MachineLearning #OpenSource #LLM #ParetoFront #Docker #Claude
