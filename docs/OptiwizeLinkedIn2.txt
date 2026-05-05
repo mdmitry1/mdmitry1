@@ -1,0 +1,37 @@
+🎉 ~1,000 views and 200+ unique readers on my first 𝐏𝐲𝐭𝐡𝐨𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐨𝐤𝐛𝐨𝐨𝐤 post — thank you! Your interest pushed me to ship a new version of pyoptiwize faster.
+
+For those just joining: pyoptiwize is a Python optimization cookbook covering real-world problems — production planning, scheduling, resource allocation and more.
+
+The cookbook supports a wide range of solvers and algorithms:
+🔹 SciPy (SHGO, Dual Annealing, SLSQP)
+🔹 pymoo / NSGA-II & NSGA-III (multi-objective genetic algorithms)
+🔹 DEAP (eaSimple genetic algorithm)
+🔹 Pyomo — Python package for formulating and analyzing optimization models
+🔹 SCIP — one of the fastest non-commercial solvers for mixed integer programming
+🔹 IPOPT (Interior Point Optimizer) — open-source library for large-scale, continuous, nonlinear optimization
+🔹 GLPK (GNU Linear Programming Kit) — open-source solver for large-scale LP and MIP problems
+🔹 Optuna GP Sampler
+🔹 Z3 SMT solver — standalone executable and called through PySMT API
+🔹 Keras/TensorFlow, PyTorch & ONNX for black-box optimization
+
+What's new in this release:
+
+📦 One-script install
+A single install.bash replaces the old multi-step setup. From zero to running in one command.
+
+📓 Jupyter notebooks
+Every example is now available as an interactive notebook. Explore, tweak parameters, re-run cells.
+
+🤖 AI-Powered Problem Formulator
+Describe your optimization challenge in plain English — get a solver-ready formulation back.
+See it in action: https://claude.ai/share/295a4dd0-0039-4b1c-8145-5cab4cd1b22e
+
+The screenshot shows the BNH multi-objective example: Pareto front in objective space (left) and feasible region in variable space (right) — F1 and F2 predicted by an sklearn GBR surrogate trained on CSV data alone. No analytical functions needed.
+
+🔗 GitHub: https://github.com/mdmitry1/optimization-tutorial
+🐳 Docker: ghcr.io/mdmitry1/optimization-tutorial
+📦 pip install pyoptiwize
+
+Feedback and ⭐ always welcome!
+
+#Python #Optimization #OperationsResearch #JupyterNotebook #MachineLearning #OpenSource #LLM #ParetoFront #Docker
