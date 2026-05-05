@@ -1,4 +1,5 @@
 🎉 500+ views and 200+ unique readers on my first 𝐏𝐲𝐭𝐡𝐨𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐨𝐤𝐛𝐨𝐨𝐤 post — thank you! 
+For a niche topic like mathematical optimization — that is far beyond my expectations!
 Your interest motivated me to ship a new version of pyoptiwize.
 
 For those just joining: pyoptiwize is a Python optimization cookbook covering real-world problems — production planning, scheduling, resource allocation and more.
@@ -11,7 +12,7 @@ The cookbook supports a wide range of solvers and algorithms:
 🔹 SCIP — one of the fastest non-commercial solvers for mixed integer programming
 🔹 IPOPT (Interior Point Optimizer) — open-source library for large-scale, continuous, nonlinear optimization
 🔹 GLPK (GNU Linear Programming Kit) — open-source solver for large-scale LP and MIP problems
-🔹 Optuna GP Sampler
+🔹 Optuna Gaussian Process (GP)-based Bayesian optimization
 🔹 Z3 SMT solver — standalone executable and called through PySMT API
 🔹 Keras/TensorFlow, PyTorch & ONNX for black-box optimization
 
