@@ -1,4 +1,5 @@
-🎉 ~1,000 views and 200+ unique readers on my first 𝐏𝐲𝐭𝐡𝐨𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐨𝐤𝐛𝐨𝐨𝐤 post — thank you! Your interest pushed me to ship a new version of pyoptiwize faster.
+🎉 500+ views and 200+ unique readers on my first 𝐏𝐲𝐭𝐡𝐨𝐧 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐨𝐤𝐛𝐨𝐨𝐤 post — thank you! 
+Your interest motivated me to ship a new version of pyoptiwize.
 
 For those just joining: pyoptiwize is a Python optimization cookbook covering real-world problems — production planning, scheduling, resource allocation and more.
 
@@ -16,8 +17,8 @@ The cookbook supports a wide range of solvers and algorithms:
 
 What's new in this release:
 
-📦 One-script install
-A single install.bash replaces the old multi-step setup. From zero to running in one command.
+📦 One-script system dependencies install
+A single install.bash replaces the old multi-step environment setup.
 
 📓 Jupyter notebooks
 Every example is now available as an interactive notebook. Explore, tweak parameters, re-run cells.
@@ -26,7 +27,7 @@ Every example is now available as an interactive notebook. Explore, tweak parame
 Describe your optimization challenge in plain English — get a solver-ready formulation back.
 See it in action: https://claude.ai/share/295a4dd0-0039-4b1c-8145-5cab4cd1b22e
 
-The screenshot shows the BNH multi-objective example: Pareto front in objective space (left) and feasible region in variable space (right) — F1 and F2 predicted by an sklearn GBR surrogate trained on CSV data alone. No analytical functions needed.
+The screenshot shows a multi-objective problem example: Pareto front in objective space (left) and feasible region in variable space (right) — F1 and F2 predicted by an sklearn Gradient Boosting Regressor surrogate model trained on CSV data. No analytical functions needed.
 
 🔗 GitHub: https://github.com/mdmitry1/optimization-tutorial
 🐳 Docker: ghcr.io/mdmitry1/optimization-tutorial
