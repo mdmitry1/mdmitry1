@@ -15,7 +15,7 @@ The tutorial walks through 4 examples, from textbook to real-world:
 
 🔹 Binh-Korn multi-objective problem: when you have two goals that pull in opposite directions (e.g., minimize cost AND minimize risk), there's no single "best" answer - there's a Pareto front: a curve of optimal trade-offs. SMLP computes it.
 
-🔹 Eggholder function: a classic optimization stress test with hundreds of "false summits" (local minima). A great way to see how SMLP navigates a rugged landscape.
+🔹 Eggholder function: a classic optimization stress test with hundreds of local minima. A great way to see how SMLP navigates a rugged landscape.
 
 🔹 Intel Signal Integrity I/O channel Optimization example: a production-grade problem with 64 objectives and 4 design parameters, using anonymized Intel data. This is what the tool was actually built for.
 
