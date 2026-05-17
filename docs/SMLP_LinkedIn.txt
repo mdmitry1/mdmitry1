@@ -39,4 +39,6 @@ If you work in engineering, data science, or just love seeing ML applied to real
 SMLP offerings go far beyond optimization. 
 Details - see https://github.com/SMLP-Systems/smlp/blob/master/doc/smlp_short_intro.pdf
 
+Your feedback is welcome: https://github.com/SMLP-Systems/smlp/discussions/142
+
 #MachineLearning #Optimization #Engineering #HardwareDesign #Intel #OpenSource #Pareto #Docker #SignalIntegrity #DataScience
