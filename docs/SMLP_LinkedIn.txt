@@ -19,6 +19,10 @@ The tutorial walks through 4 examples, from textbook to real-world:
 
 For the three first examples results are verified versus analytical solution and SMLP demonstrated great accuracy for all of them.
 
+🙏 A heartfelt thank you to the researchers whose expertise made SMLP and this tutorial possible: 
+ Franz Brauße and Konstantin Korovin (University of Manchester) for their foundational work on formal verification and constraint solving
+ Zurab Khasidashvili for his vision, guidance, and years of collaboration driving SMLP's development and real-world application at Intel.
+
 Ready to try it yourself? 
 ✅ Works on Linux, Windows, and Apple OS - Python installation packages and Docker images are provided
 - Python: pip install smlptech
