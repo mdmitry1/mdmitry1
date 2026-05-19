@@ -6,7 +6,7 @@ You can measure or simulate the outputs but don't know the underlying math?
 
 That's called black-box optimization, and it shows up everywhere: chip design, manufacturing, robotics, drug discovery, and more.
 
-Tutorial shows how to use 𝐒𝐌𝐋𝐏 (𝐒𝐲𝐦𝐛𝐨𝐥𝐢𝐜 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐏𝐫𝐨𝐯𝐞𝐫)  an open-source tool proven at Intel for optimizing analog hardware designs.  SMLP learns a model from your measurement data, then searches that model for the best possible parameter configurations and/or inputs - all while respecting whatever constraints you define.
+Tutorial shows how to use 𝐒𝐌𝐋𝐏 (𝐒𝐲𝐦𝐛𝐨𝐥𝐢𝐜 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐏𝐫𝐨𝐯𝐞𝐫) an open-source tool proven at Intel for optimizing analog hardware designs. SMLP learns a model from your measurement data, then searches that model for the best possible parameter configurations and/or inputs - all while respecting whatever constraints you define.
 
 Unlike purely statistical approaches, SMLP leverages Formal Methods to deliver trustworthy results in the presence of noisy or erroneous input data.
 
@@ -14,13 +14,15 @@ The tutorial walks through 4 examples, from textbook to real-world:
 
 🔹 Constrained optimization: find the best solution inside a defined boundary.
 
-🔹 Binh-Korn multi-objective problem: when you have two goals that pull in opposite directions and there's no single "best" answer -  𝐒𝐌𝐋𝐏 computes  Pareto front: a curve of optimal trade-offs.
+🔹 Binh-Korn multi-objective problem: when you have two goals that pull in opposite directions and there's no single "best" answer - 𝐒𝐌𝐋𝐏 computes Pareto front: a curve of optimal trade-offs.
 
 🔹 Eggholder function: a classic optimization stress test with hundreds of local minima. A great way to see how SMLP navigates a rugged landscape.
 
 🔹 Intel Signal Integrity I/O channel Optimization example: problem with 64 objectives and 4 design parameters, using mangled Intel data. This is what the tool was actually built for.
 
 For the three first examples results are verified versus analytical solution and SMLP demonstrated great accuracy for all of them.
+
+
 
 🙏 A heartfelt thank you to SMLP early developers:
 
@@ -29,23 +31,30 @@ For the three first examples results are verified versus analytical solution and
  Zurab Khasidashvili - my Intel colleague
 
 
+
 Ready to try it yourself? 
 
 ✅ Works on Linux, Windows, and Apple OS - Python installation packages and Docker images are provided
 
-- Python: pip install smlptech
-- Docker:
+- Python: 𝒑𝒊𝒑 𝒊𝒏𝒔𝒕𝒂𝒍𝒍 𝒔𝒎𝒍𝒑𝒕𝒆𝒄𝒉
 
- Linux and Windows: docker pull mdmitry1/python311-dev
+- Docker: 
 
- Mac: docker pull mdmitry1/python311-dev-mac
+   Linux and Windows: 𝒅𝒐𝒄𝒌𝒆𝒓 𝒑𝒖𝒍𝒍 𝒎𝒅𝒎𝒊𝒕𝒓𝒚1/𝒑𝒚𝒕𝒉𝒐𝒏311-𝒅𝒆𝒗
+
+   Mac: 𝒅𝒐𝒄𝒌𝒆𝒓 𝒑𝒖𝒍𝒍 𝒎𝒅𝒎𝒊𝒕𝒓𝒚1/𝒑𝒚𝒕𝒉𝒐𝒏311-𝒅𝒆𝒗-𝒎𝒂𝒄
+
+
 
 ✅ No deep math knowledge is required - just run the scripts 
 
 ✅ Every example includes datasets, configuration files, and expected results so you can verify your output
 
 
+
 If you work in engineering, data science, or just love seeing ML applied to real-life problems - I think you'll find this useful.
+
+
 
 SMLP offerings go far beyond optimization. 
 
@@ -53,5 +62,6 @@ Details - see https://lnkd.in/dPdNmuFX
 
 Your feedback is welcome: https://lnkd.in/dFdDXspi
 
-#MachineLearning #Optimization #Engineering #HardwareDesign #Intel #OpenSource #Pareto #Docker #SignalIntegrity #DataScience
 
+
+#MachineLearning #Optimization #Engineering #HardwareDesign #Intel #OpenSource #Pareto #Docker #SignalIntegrity #DataScience
